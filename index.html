@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tushar Baidya - Web Developer Portfolio"
+    />
+    <title>Tushar Baidya | Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar container">
+        <a href="#home" class="logo">TB<span>.</span></a>
+
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HOME -->
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">HELLO, I'M</p>
+            <h1>Tushar <span>Baidya</span></h1>
+            <h2>Web Developer &amp; Full Stack Developer</h2>
+            <p class="hero-text">
+              I build responsive, user-friendly and modern web applications
+              using HTML, CSS, JavaScript, React, Node.js and databases.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">View My Work</a>
+              <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+
+            <div class="socials">
+              <a href="https://github.com/tusharbaidya" aria-label="GitHub"
+                >GitHub</a
+              >
+              <a
+                href="https://www.linkedin.com/in/tushar-baidya/"
+                aria-label="LinkedIn"
+                >LinkedIn</a
+              >
+              <a href="baidyatushar04@gmail.com" aria-label="Email">Email</a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="code-window">
+              <div class="window-bar"><i></i><i></i><i></i></div>
+              <pre><code><span class="pink">const</span> developer = {
+  name: <span class="green">"Tushar"</span>,
+  role: <span class="green">"Web Developer"</span>,
+  skills: [
+    <span class="green">"JavaScript"</span>,
+    <span class="green">"React"</span>,
+    <span class="green">"Node.js"</span>
+  ],
+  passion: <span class="green">"Building"</span>
+};</code></pre>
+            </div>
+          </div>
+        </div>
+        <a href="#about" class="scroll-down">↓ Scroll to explore</a>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">GET TO KNOW ME</p>
+            <h2>About <span>Me</span></h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-image">
+              <div class="avatar">TB</div>
+            </div>
+
+            <div class="about-content">
+              <h3>Passionate about turning ideas into websites.</h3>
+              <p>
+                I'm a web development learner and MCA student who enjoys
+                creating clean, responsive and practical digital experiences. I
+                like solving problems with code and continuously improving my
+                development skills.
+              </p>
+              <p>
+                My current focus is on modern frontend development, backend
+                development and building full-stack applications that solve
+                real-world problems.
+              </p>
+
+              <div class="about-stats">
+                <div><strong>5+</strong><span>Projects</span></div>
+                <div><strong>10+</strong><span>Technologies</span></div>
+                <div><strong>∞</strong><span>Learning</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section section-dark">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">MY RECENT WORK</p>
+            <h2>Featured <span>Projects</span></h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-icon">01</div>
+              <div class="project-content">
+                <p class="project-type">FULL STACK</p>
+                <h3>ResumeBuilder GenAI</h3>
+                <p>
+                  A web application designed to help users create professional
+                  resumes with an easy-to-use interface.
+                </p>
+                <div class="tags">
+                  <span>React.js</span><span>Node.js</span
+                  ><span>Express.js</span><span>MongoDB</span
+                  ><span>JavaScript</span>
+                </div>
+                <a
+                  href="https://github.com/tusharbaidya/GenAI-ResumeBuilder"
+                  class="project-link"
+                  >View Project ↗</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-icon">02</div>
+              <div class="project-content">
+                <p class="project-type">FULL STACK</p>
+                <h3>REAL TIME CHAT APPLICATION</h3>
+                <p>
+                  An education-focused platform with a modern interface for
+                  discovering learning resources and useful content.
+                </p>
+                <div class="tags">
+                  <span>React.js</span><span>Node.js</span
+                  ><span>Express.js</span><span>MongoDB</span
+                  ><span>JavaScript</span>
+                </div>
+                <a
+                  href="https://github.com/tusharbaidya/fullStack-ChatApp"
+                  class="project-link"
+                  >View Project ↗</a
+                >
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-icon">03</div>
+              <div class="project-content">
+                <p class="project-type">FULLSTACK</p>
+                <h3>Loan Application</h3>
+                <p>
+                  A multi-step loan application interface featuring validation,
+                  conditional fields, document upload and review flow.
+                </p>
+                <div class="tags">
+                  <span>React.js</span><span> Tailwind CSS</span
+                  ><span>JavaScript</span><span>Node.js</span
+                  ><span>Express.js</span>
+                </div>
+                <a href="#" class="project-link">View Project ↗</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">WHAT I WORK WITH</p>
+            <h2>My <span>Skills</span></h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-top">
+                <h3>HTML5</h3>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar"><span style="width: 90%"></span></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-top">
+                <h3>CSS3</h3>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar"><span style="width: 85%"></span></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-top">
+                <h3>JavaScript</h3>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar"><span style="width: 80%"></span></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-top">
+                <h3>React.js</h3>
+                <span>78%</span>
+              </div>
+              <div class="skill-bar"><span style="width: 78%"></span></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-top">
+                <h3>Node.js</h3>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar"><span style="width: 70%"></span></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-top">
+                <h3>Express.js</h3>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar"><span style="width: 70%"></span></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-top">
+                <h3>MongoDB</h3>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar"><span style="width: 70%"></span></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-top">
+                <h3>Java</h3>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar"><span style="width: 70%"></span></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-top">
+                <h3>C/C++</h3>
+                <span>50%</span>
+              </div>
+              <div class="skill-bar"><span style="width: 70%"></span></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-top">
+                <h3>TailWind CSS</h3>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar"><span style="width: 70%"></span></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-top">
+                <h3>BootStrap</h3>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar"><span style="width: 70%"></span></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-top">
+                <h3>MySQL</h3>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar"><span style="width: 75%"></span></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-top">
+                <h3>Git &amp; GitHub</h3>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar"><span style="width: 75%"></span></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-top">
+                <h3>PostMan</h3>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar"><span style="width: 70%"></span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section section-dark">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2>Contact <span>Me</span></h2>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h3>Have a project or opportunity?</h3>
+              <p>
+                I'm open to internships, entry-level opportunities and
+                interesting web development projects.
+              </p>
+
+              <div class="contact-item">
+                <span>✉</span>
+                <div>
+                  <small>Email</small>
+                  <p>your.email@example.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span>⌖</span>
+                <div>
+                  <small>Location</small>
+                  <p>India</p>
+                </div>
+              </div>
+            </div>
+
+            <form id="contactForm" class="contact-form">
+              <div class="form-row">
+                <input type="text" id="name" placeholder="Your name" required />
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Your email"
+                  required
+                />
+              </div>
+              <input type="text" id="subject" placeholder="Subject" required />
+              <textarea
+                id="message"
+                rows="6"
+                placeholder="Your message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn-primary">
+                Send Message →
+              </button>
+              <p id="formMessage" class="form-message"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>
+          © <span id="year"></span> Tushar Baidya. Built with HTML, CSS &amp;
+          JavaScript.
+        </p>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
